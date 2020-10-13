@@ -37,7 +37,11 @@ const Home = () => {
     }, []);
 
     return (
-        <Layout title="Home Page" description="Node React E-commerce App" className="container-fluid">
+        <Layout 
+            title="FullStack React Node MongoDB Ecommerce App (Kirkv2)" 
+            description="Node React E-commerce App" 
+            className="container-fluid"
+        >
             <Search />
             <h2 className="mb-4">New Arrival</h2>
             <div className="row">
